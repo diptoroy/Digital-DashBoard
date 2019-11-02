@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			2017002106
+		</title>
+			<style type="text/css">
+				body
+        			{ 
+                            background:black;
+                            display: grid;
+	                        grid-template-areas: 
+                                "header header header"
+                                "nav section aside"
+                                "nav section Switch";
+	                        grid-gap: 5px;
+                            margin: 10px;  
+        			}
+                header
+                    {
+	                    background: #707070;
+	                    grid-area: header;
+                    }
+                nav
+                    {
+	                    background: #C9BFBF;
+	                    grid-area: nav; 
+                    }
+                section
+                    {
+	                    background: #ABABAB;
+	                    grid-area: section;    
+                    }
+                aside
+                    {
+	                    background: #C9C9C9;
+	                    grid-area: aside; 
+                    }
+
+                switch
+                    {
+	                    background: snow;
+	                    grid-area: switch;
+                    }
+                header, nav, section, aside, switch
+                    {
+	                    padding: 5px;
+                    }
+
+                    .switch
+                    {
+                        
+                    }
+					a
+						{
+							position: relative;
+							display: inline-block;
+  							padding: 15px 30px;
+  							color: snow;
+  							letter-spacing: 4px;
+  							text-decoration: none;
+  							font-size: 26px;
+  							overflow: hidden;
+  							transition: 0.2s;
+						}
+
+							a:hover
+								{
+  									color:skyblue;
+  									box-shadow: 0 0 10px steelblue, 0 0 40px steelblue, 0 0 80px steelblue;
+  									transition-delay: 1s;
+								}
+
+						a span
+							{
+								position: absolute;
+  								display: block;
+							}
+							a span:nth-child(1)
+								{
+  									top: 0;
+  									left: -100%;
+  									height: 2px;
+  									width: 100%;
+  									background: linear-gradient(90deg, transparent,snow);
+								}
+								a:hover span:nth-child(1)
+									{
+										left: 100%;
+										transition: 1s;
+									}
+							a span:nth-child(2)
+								{
+									top: -100%;
+									right: 0;
+									height: 100%;
+									width: 2px;
+									background: linear-gradient(180deg, transparent,snow);
+								}
+								a:hover span:nth-child(2)
+									{
+										top: 100%;
+										transition: 1s;
+										transition-delay: 0.25s;
+									}
+							a span:nth-child(3)
+								{
+  									right: -100%;
+  									bottom: 0;
+									height: 2px;
+									width: 100%;
+									background: linear-gradient(270deg, transparent,snow);
+								}
+								a:hover span:nth-child(3)
+									{
+										right: 100%;
+										transition: 1s;
+										transition-delay: 0.5s;
+									}
+							a span:nth-child(4)
+								{
+									bottom: -100%;
+									left: 0;
+									height: 100%;
+									width: 2px;
+									background: linear-gradient(360deg, transparent,snow);
+								}
+								a:hover span:nth-child(4)
+									{
+  										bottom: 100%;
+  										transition: 1s;
+										transition-delay: 0.75s;
+									}
+            </style>
+    </head>
+    <body>
+        <header>header</header>
+        <nav>nav</nav>
+        <section>section</section>
+        <aside>aside</aside>
+        <switchr>
+            <div class="switch">
+			<a href="index.html">Switch Interface
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			  </a>
+		</div>
+        </switch>
+
+	</body>
+</html>
