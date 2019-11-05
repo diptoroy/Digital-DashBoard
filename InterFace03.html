@@ -10,9 +10,9 @@
 						background: black;
 						display: grid;
 						grid-template-areas: 
-    						"nav section header"
-    						"nav section header"
-    						"nav Section footer";
+							"nav header header"
+    						"nav section aside"
+    						"nav section footer";
 						grid-template-rows: 80px 1fr 50px;
 						grid-template-columns: 15% 1fr 18%;
 						grid-gap: 5px;
@@ -23,25 +23,37 @@
 
 				header
 					{
+						background: crimson;
 						grid-area: header;
 					}
+
 				nav
 					{
-						grid-area: nav; 
+						background: crimson;
+						grid-area: nav;
 					}
 
 				section
 					{
+						background: crimson;
 						grid-area: section;    
 					}
+				
+				aside
+					{
+						background: crimson;
+						grid-area: aside; 
+					}
+
 					
 				footer
 					{
+						background: crimson;
 						grid-area: footer;
 
 					}
 
-				header, nav, section, footer
+				header, section, footer
 				{
 					padding: 5px;
 				}
@@ -50,19 +62,48 @@
     </head>
     <body>
 			<header>
-				H
+				
 			</header>
-
 			<nav>
-				N
-			</nav>
 
+			</nav>
 			<section>
-				S
+					<div
+					data-windywidget="stats"
+					data-responsive="true"
+					data-horizontal="true"
+					data-spotid="395499"
+					data-appid="752a9cb760f7419181d7b7e61de43fcc">
+					</div>
+					<script async="true" data-cfasync="false" type="text/javascript" src="https://windyapp.co/widget2/windy_stats_async.js"></script>		
 			</section>
+			<aside>
+					<div>
+							<a class="weatherwidget-io"
+							href="https://forecast7.com/en/30d89120d09/huzhou/"
+							data-label_1="HUZHOU"
+							data-label_2="WEATHER"
+							data-font="Ubuntu"
+							data-icons="Climacons Animated"
+							data-theme="weather_one" >HUZHOU WEATHER</a>
+							<script>
+								!function(d,s,id)
+									{
+										var js,fjs=d.getElementsByTagName(s)[0];
+										if(!d.getElementById(id))
+											{
+												js=d.createElement(s);
+												js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+												fjs.parentNode.insertBefore(js,fjs);
+											}
+									}
+								(document,'script','weatherwidget-io-js');
+							</script>
+						</div>
+			</aside>
 
 			<footer>
-					<a href="index.html">Switch InterFace</a>
+				<a href="index.html">Switch InterFace</a>			
 			</footer>
 			
 	</body>
