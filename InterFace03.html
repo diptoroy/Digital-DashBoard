@@ -7,10 +7,10 @@
 			<style type="text/css">
 				body
 					{
-						background: black;
+						background: crimson;
 						display: grid;
 						grid-template-areas: 
-							"nav header header"
+							"header header header"
     						"nav section aside"
     						"nav section footer";
 						grid-template-rows: 80px 1fr 50px;
@@ -23,32 +23,32 @@
 
 				header
 					{
-						background: crimson;
+						background: black;
 						grid-area: header;
 					}
 
 				nav
 					{
-						background: crimson;
+						background: black;
 						grid-area: nav;
 					}
 
 				section
 					{
-						background: crimson;
+						background: black;
 						grid-area: section;    
 					}
 				
 				aside
 					{
-						background: crimson;
+						background: black;
 						grid-area: aside; 
 					}
 
 					
 				footer
 					{
-						background: crimson;
+						background: black;
 						grid-area: footer;
 
 					}
@@ -62,22 +62,9 @@
     </head>
     <body>
 			<header>
-				
+
 			</header>
 			<nav>
-
-			</nav>
-			<section>
-					<div
-					data-windywidget="stats"
-					data-responsive="true"
-					data-horizontal="true"
-					data-spotid="395499"
-					data-appid="752a9cb760f7419181d7b7e61de43fcc">
-					</div>
-					<script async="true" data-cfasync="false" type="text/javascript" src="https://windyapp.co/widget2/windy_stats_async.js"></script>		
-			</section>
-			<aside>
 					<div>
 							<a class="weatherwidget-io"
 							href="https://forecast7.com/en/30d89120d09/huzhou/"
@@ -100,6 +87,12 @@
 								(document,'script','weatherwidget-io-js');
 							</script>
 						</div>
+			</nav>
+			<section>
+					<iframe width="900" height="550" src="https://embed.windy.com/embed2.html?lat=30.297&lon=120.146&zoom=5&level=surface&overlay=wind&menu=&message=true&marker=true&calendar=&pressure=true&type=map&location=coordinates&detail=&detailLat=30.297&detailLon=120.146&metricWind=m%2Fs&metricTemp=%C2%B0C&radarRange=-1" frameborder="0"></iframe> 
+			</section>
+			<aside>
+
 			</aside>
 
 			<footer>
