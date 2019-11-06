@@ -36,7 +36,7 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 - JavaScript
 - V8(Chrome and Docker) and Spidermonkey(Firefox)
 - Node.JS
--
+- Windy JavaScipt API
 
 
 <p align="center"><img alt="BCK" src="https://img.moegirl.org/enmoegirl/9/9b/Hatsune_miku_v4x.png"></p>
