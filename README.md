@@ -21,12 +21,14 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 - Week 14 : Upgrade Ops based on Teacher's Input
 - Week 15 : Final Release
 
+
 ## Features
 
 - Can be deployed via web browser,no docker module needed.
 - Fetches Time and Date from the native RTC module of the host,which is updated through the NTP servers online according to region and native timeline.
 - Can be used as a personal dashboard or digital signage for a company/institute/organization.
 - Capable of working offline with just precached data and volatile memory.
+
 
 ## Technologies
 
