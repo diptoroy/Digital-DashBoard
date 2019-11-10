@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>
-			Third InterFace
-		</title>
-		<link rel="stylesheet" href="IF03.css" type="text/css" />
-    </head>
-    <body>
-			<header>
-<div class="clockcontainer">
-			<div id="CLK" class="clock">
-				<script type="text/javascript">
 					function showTime()
             		{
                 		var date = new Date();
@@ -59,6 +46,7 @@
 							hour = hour - 12;
 							ses = "PM";
 						}
+
 						h      = (h   	 < 10  ) ? "0"   + h      : h;
 						m      = (m   	 < 10  ) ? "0"   + m      : m;
 						s      = (s   	 < 10  ) ? "0"   + s      : s;
@@ -72,44 +60,3 @@
 						setTimeout(showTime, 0);
 					}
 					showTime();
-				</script>
-			</div>
-		</div>
-			</header>
-			<nav>
-					<div>
-							<a class="weatherwidget-io"
-							href="https://forecast7.com/en/30d89120d09/huzhou/"
-							data-label_1="HUZHOU"
-							data-label_2="WEATHER"
-							data-font="Ubuntu"
-							data-icons="Climacons Animated"
-							data-theme="weather_one" >HUZHOU WEATHER</a>
-							<script>
-								!function(d,s,id)
-									{
-										var js,fjs=d.getElementsByTagName(s)[0];
-										if(!d.getElementById(id))
-											{
-												js=d.createElement(s);
-												js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
-												fjs.parentNode.insertBefore(js,fjs);
-											}
-									}
-								(document,'script','weatherwidget-io-js');
-							</script>
-						</div>
-			</nav>
-			<section>
-					<iframe width="1200" height="600" src="https://embed.windy.com/embed2.html?lat=30.297&lon=120.146&zoom=5&level=surface&overlay=wind&menu=&message=true&marker=true&calendar=&pressure=true&type=map&location=coordinates&detail=&detailLat=30.297&detailLon=120.146&metricWind=m%2Fs&metricTemp=%C2%B0C&radarRange=-1" frameborder="0"></iframe> 
-			</section>
-			<aside>
-
-			</aside>
-
-			<footer>
-				<a href="index.html">Switch InterFace</a>			
-			</footer>
-			
-	</body>
-</html>
