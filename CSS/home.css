@@ -44,7 +44,7 @@ body
 							{
 								background: black;
 								color:firebrick;
-  								box-shadow: 0 0 10px crimson, 0 0 40px crimson, 0 0 80px crimson;
+  								box-shadow: 0 0 10px snow, 0 0 40px snow, 0 0 80px snow;
   								transition-delay: 1s;
 							}
 					a span
