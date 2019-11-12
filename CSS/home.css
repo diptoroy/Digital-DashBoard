@@ -1,7 +1,8 @@
 body
         			{
 						background-color: black;
-						background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-wallpapers-anime-girl.jpg");
+						background-image: url("http://cdn.animalhi.com/1280x800/20121101/red%20china%20russia%20panda%20bears%20anime%20axis%20powers%20hetalia%201280x800%20wallpaper_www.animalhi.com_38.jpg");
+						background-repeat: no-repeat;
 						background-size:cover;
 						overflow: hidden;
 					}
@@ -9,12 +10,12 @@ body
 						{
 							position: absolute;
 							top: 2%;
-							left: 2%;
+							right: 2%;
 						}
 						
 					.clock
         				{
-							color:skyblue;
+							color:snow;
 							font-family: monospace;
            					font-size: 40px;
 						}
@@ -41,8 +42,9 @@ body
 						}
 						a:hover
 							{
-								color:aqua;
-  								box-shadow: 0 0 10px steelblue, 0 0 40px steelblue, 0 0 80px steelblue;
+								background: black;
+								color:firebrick;
+  								box-shadow: 0 0 10px crimson, 0 0 40px crimson, 0 0 80px crimson;
   								transition-delay: 1s;
 							}
 					a span

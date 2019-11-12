@@ -1,6 +1,9 @@
 body
         			{
-						background: url("https://wallpapercave.com/wp/6GlYJnm.jpg") black;
+						background-color: black;
+						background: url("https://wallpapercave.com/wp/6GlYJnm.jpg");
+						background-repeat: no-repeat;
+						background-size:cover;
 						background-size: cover;
 						overflow: hidden;
         			}
