@@ -36,7 +36,7 @@ body
 					a
 						{
 							position: relative;
-							display: inline-block;
+							display: grid;
   							padding: 15px 30px;
   							color: snow;
   							letter-spacing: 4px;
