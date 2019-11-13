@@ -54,7 +54,7 @@ function showTime()
 						d      = (d   	 < 10  ) ? "0"   + d      : d;
 						hour   = (hour   < 10  ) ? "0"   + hour   : hour;
 						
-						var noobtime =hour+":"+m+":"+s+" "+ses+","+day+","+d+" "+month+","+y;
+						var noobtime =hour+":"+m+":"+s+" "+ses;
 						document.getElementById("CLK").textContent = noobtime;
 						setTimeout(showTime, 0);
 					}

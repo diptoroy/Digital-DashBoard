@@ -5,7 +5,27 @@ body
 						background-repeat: no-repeat;
 						background-size:cover;
 						overflow: hidden;
-        			}
+					}
+					.clockcontainer
+					{
+						position: absolute;
+						top: 2%;
+						right: 2%;
+					}
+
+					.clock
+        				{
+							color:snow;
+							font-family: monospace;
+           					font-size: 50px;
+						}
+					.weathercontainer
+					{
+						position: absolute;
+						top: 2%;
+						left: 2%;
+						width: 200px;
+					}
 					.switch
 					{
 						position: absolute;
