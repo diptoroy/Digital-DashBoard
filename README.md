@@ -12,13 +12,9 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 
 ## Project Plan
 
-- Week 8  : Grid update for InterFace 3
-- Week 9  : Geolocation sub-system update for the Weather Module
-- Week 10 : Completion of the Third InterFace
-- Week 11 : Backend Optimization
-- Week 12 : Frontend Optimization
-- Week 13 : Backend Debugging and Stress testing
-- Week 14 : Upgrade Ops based on Teacher's Input
+- Week 12 : CRUD Data Interface Installation
+- Week 13 : IndexDB Framework Assembly
+- Week 14 : Cross Origin Resource Sharing Configuration
 - Week 15 : Final Release
 
 
@@ -28,17 +24,23 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 - Fetches Time and Date from the native RTC module of the host,which is updated through the NTP servers online according to region and native timeline.
 - Can be used as a personal dashboard or digital signage for a company/institute/organization.
 - Capable of working offline with just precached data and volatile memory.
+- Encryted access to a CRUD DataBase that can store Access Keys to other websites and applications.
 
 
 ## Technologies
 
+- StatiCrypt
+- crypti-js
+- AES-256 client side encryption
+- indexDB
+- Dexie.js
+- Node.js
 - Dark Sky API
-- HTML
+- coinlib
+- HTML5
 - CSS3
+- BootS
+- Bootstrap4
 - JavaScript
-- V8(Chrome and Docker) and Spidermonkey(Firefox)
-- Node.JS
-- Windy JavaScipt API
-
 
 <p align="center"><img alt="BCK" src="https://img.moegirl.org/enmoegirl/9/9b/Hatsune_miku_v4x.png"></p>
