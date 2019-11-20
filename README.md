@@ -12,10 +12,10 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 
 ## Project Plan
 
-- Week 12 : CRUD Data Interface Installation
-- Week 13 : IndexDB Framework Assembly
-- Week 14 : Cross Origin Resource Sharing Configuration
-- Week 15 : Final Release
+- Week 12 : System Wide Data Encryption
+- Week 13 : CRUD Data Interface Installation
+- Week 14 : IndexDB Framework Assembly
+- Week 15 : Cross Origin Resource Sharing Configuration
 
 
 ## Features
