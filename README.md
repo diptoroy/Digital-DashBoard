@@ -39,7 +39,6 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 - coinlib
 - HTML5
 - CSS3
-- BootS
 - Bootstrap4
 - JavaScript
 
