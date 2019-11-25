@@ -29,14 +29,16 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 
 ## Technologies
 
-- StatiCrypt
-- crypti-js
-- AES-256 client side encryption
+- Glitch
+- MongoDB(Atlas)
+- Express
+- Passport
+- Mongoose
+- Nodemon
 - indexDB
-- Dexie.js
-- Node.js
+- Dexie
+- Node
 - Dark Sky API
-- coinlib
 - HTML5
 - CSS3
 - Bootstrap4
