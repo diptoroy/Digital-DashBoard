@@ -12,10 +12,10 @@ A modern,network connected Digital Dashboard that makes a lot of devices obsolet
 
 ## Project Plan
 
-- Week 12 : System Wide Data Encryption
-- Week 13 : CRUD Data Interface Installation
-- Week 14 : IndexDB Framework Assembly
-- Week 15 : Cross Origin Resource Sharing Configuration
+- Week 12 : User Authntication Installation
+- Week 13 : CRUD Data Interface Assembly
+- Week 14 : DB Framework Intregation
+- Week 15 : CORS Configuration
 
 
 ## Features
