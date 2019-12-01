@@ -4,7 +4,9 @@ const bcrypt = require('bcryptjs');
 const passport = require('passport');
 // Load User model
 const User = require('../models/User');
-const { forwardAuthenticated } = require('../config/auth');
+const {
+  forwardAuthenticated
+} = require('../config/auth');
 
 // Login Page
 router.get('/login', forwardAuthenticated, (req, res) => res.render('login'));
@@ -14,19 +16,30 @@ router.get('/register', forwardAuthenticated, (req, res) => res.render('register
 
 // Register
 router.post('/register', (req, res) => {
-  const { name, email, password, password2 } = req.body;
+  const {
+    name,
+    email,
+    password,
+    password2
+  } = req.body;
   let errors = [];
 
   if (!name || !email || !password || !password2) {
-    errors.push({ msg: 'Please enter all fields' });
+    errors.push({
+      msg: 'Please enter all fields'
+    });
   }
 
   if (password != password2) {
-    errors.push({ msg: 'Passwords do not match' });
+    errors.push({
+      msg: 'Passwords do not match'
+    });
   }
 
   if (password.length < 6) {
-    errors.push({ msg: 'Password must be at least 6 characters' });
+    errors.push({
+      msg: 'Password must be at least 6 characters'
+    });
   }
 
   if (errors.length > 0) {
@@ -38,9 +51,13 @@ router.post('/register', (req, res) => {
       password2
     });
   } else {
-    User.findOne({ email: email }).then(user => {
+    User.findOne({
+      email: email
+    }).then(user => {
       if (user) {
-        errors.push({ msg: 'Email already exists' });
+        errors.push({
+          msg: 'Email already exists'
+        });
         res.render('register', {
           errors,
           name,
@@ -91,5 +108,6 @@ router.get('/logout', (req, res) => {
   req.flash('success_msg', 'You are logged out');
   res.redirect('/users/login');
 });
+
 
 module.exports = router;
